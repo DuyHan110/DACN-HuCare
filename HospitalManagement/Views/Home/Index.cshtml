@@ -1,0 +1,294 @@
+﻿@using BELibrary.Entity
+@{
+    var doctors = (List<Doctor>)ViewBag.Doctors ?? new List<Doctor>();
+    var latestPosts = (List<Article>)ViewBag.LatestPosts ?? new List<Article>();
+
+}
+
+<section class="section section-search">
+    <div class="container-fluid">
+        <div class="banner-wrapper">
+            <div class="banner-header text-center">
+              <h1>HuCare</h1>
+              <br />
+            </div>
+            <div class="search-box">
+                <form action="/doctor/search" method="post">
+                    <div class="form-group search-info">
+                        <input type="text" class="form-control" placeholder="Tìm Kiếm Bác Sĩ ,Bệnh Viện" name="query">
+                       
+                    </div>
+                    <button type="submit" class="btn btn-primary search-btn mt-0"><i class="fas fa-search"></i> <span>Search</span></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section home-tile-section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-9 m-auto">
+                <div class="section-header text-center">
+                   
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 mb-3">
+                        <div class="card text-center doctor-book-card">
+                            <img src="~/Content/theme/img/doctors/bacsiand.jpg" alt="" class="img-fluid">
+                            <div class="doctor-book-card-content tile-card-content-1">
+                                <div>
+                                    <h3 class="card-title mb-0">Đi Khám Bác Sĩ</h3>
+                                    <a href="/doctor" class="btn book-btn1 px-3 py-2 mt-3" tabindex="0">Đặt Ngay Bây Giờ</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-3">
+                        <div class="card text-center doctor-book-card">
+                            <img src="~/Content/theme/img/img-pharmacy1.jpg" alt="" class="img-fluid">
+                            <div class="doctor-book-card-content tile-card-content-1">
+                                <div>
+                                    <h3 class="card-title mb-0">Tìm Hiệu Thuốc</h3>
+                                    <a href="/pharmacy" class="btn book-btn1 px-3 py-2 mt-3" tabindex="0">TÌm Ngay Bây Giờ</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-3">
+                        <div class="card text-center doctor-book-card">
+                            <img src="~/Content/theme/img/lab-image.jpg" alt="" class="img-fluid">
+                            <div class="doctor-book-card-content tile-card-content-1">
+                                <div>
+                                    <h3 class="card-title mb-0">Tìm Kiếm Phòng Khám</h3>
+                                    <a href="javascript:void(0);" class="btn book-btn1 px-3 py-2 mt-3" tabindex="0">Sắp Diễn Ra</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-specialities">
+    <div class="container-fluid">
+        <div class="section-header text-center">
+            <h2>Phòng Khám Và Chuyên Khoa</h2>
+            <p class="sub-title">Là nơi chứa đựng hạnh phúc, cùng với các thủ tục giám sát nâng cao, nơi giúp bạn phục hồi các tổn hại sức khỏe bản thân bạn.</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-9">
+
+                <div class="specialities-slider slider">
+
+                    <div class="speicality-item text-center">
+                        <div class="speicality-img">
+                            <img src="~/Content/theme/img/specialities/specialities-01.png" class="img-fluid" alt="Speciality">
+                            <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                        </div>
+                        <p>Khoa tiết niệu</p>
+                    </div>
+
+                    <div class="speicality-item text-center">
+                        <div class="speicality-img">
+                            <img src="~/Content/theme/img/specialities/specialities-02.png" class="img-fluid" alt="Speciality">
+                            <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                        </div>
+                        <p>Khoa thần kinh</p>
+                    </div>
+
+                    <div class="speicality-item text-center">
+                        <div class="speicality-img">
+                            <img src="~/Content/theme/img/specialities/specialities-03.png" class="img-fluid" alt="Speciality">
+                            <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                        </div>
+                        <p>Khoa chỉnh hình</p>
+                    </div>
+
+                    <div class="speicality-item text-center">
+                        <div class="speicality-img">
+                            <img src="~/Content/theme/img/specialities/specialities-04.png" class="img-fluid" alt="Speciality">
+                            <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                        </div>
+                        <p>Khoa tim mạch</p>
+                    </div>
+
+                    <div class="speicality-item text-center">
+                        <div class="speicality-img">
+                            <img src="~/Content/theme/img/specialities/specialities-05.png" class="img-fluid" alt="Speciality">
+                            <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                        </div>
+                        <p>Nha khoa</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-doctor">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="section-header ">
+                    <h2>Đặt lịch cho bác sĩ của chúng tôi</h2>
+                    <p>Nơi các chuyên gia hàng đầu chữa trị </p>
+                </div>
+                <div class="about-content">
+                    <p>Nơi hội tụ các bác sĩ có trình độ chuyên môn cao, cùng với các kĩ thuật khoa học công nghệ tiên tiến giúp quá trình chữa trị cho bệnh nhân được hoàn hảo hơn.</p>
+                    <p>Trang web giúp các bệnh nhân có thể dễ dàng quản lý thông tin cá nhân cũng như tình trạng bệnh, đơn thuốc do các chuyên gia bác sĩ trong bệnh viện kê đơn cho, cũng như có thể tìm hiểu được các thông tin về bệnh viện</p>
+                    <a href="javascript:;">Tìm hiểu thêm..</a>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="doctor-slider slider">
+
+                    @foreach (var doctor in doctors)
+                    {
+                        <div class="profile-widget" style="min-height: 700px;">
+                            <div class="doc-img">
+                                <a href="/doctor/detail?id=@doctor.Id">
+                                    <img class="img-fluid" alt="User Image" src="@doctor.Avatar">
+                                </a>
+                                <a href="javascript:void(0)" class="fav-btn">
+                                    <i class="far fa-bookmark"></i>
+                                </a>
+                            </div>
+                            <div class="pro-content" style="min-height: 285px;">
+                                <h3 class="title">
+                                    <a href="/doctor/detail?id=@doctor.Id">@doctor.Name</a>
+                                    <i class="fas fa-check-circle verified"></i>
+                                </h3>
+                                <p class="speciality">@doctor.Descriptions</p>
+                                <div class="rating">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <span class="d-inline-block average-rating">(17)</span>
+                                </div>
+                                <ul class="available-info">
+                                    <li>
+                                        <i class="fas fa-map-marker-alt"></i> @doctor.Address
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-dashboard"></i> @doctor.Faculty.Name
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="control">
+                                <div class="row row-sm">
+                                    <div class="col-6">
+                                        <a href="/doctor/detail?id=@doctor.Id" class="btn view-btn">Thông tin</a>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="javascript:void(0)" onclick="bookNow('@doctor.Id')" class="btn book-btn">Đặt lịch </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-features">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-5 features-img">
+                <img src="~/Content/theme/img/features/feature.png" class="img-fluid" alt="Feature">
+            </div>
+            <div class="col-md-7">
+                <div class="section-header">
+                    <h2 class="mt-2">Các tính năng có sẵn trong Phòng khám của chúng tôi</h2>
+                    <p>Với công nghệ tiên tiến, cùng với các công cụ xét nghiệm hiện đại, máy chụp x-quang tân tiến,dụng cụ phẫu thuật đời mới giúp chuẩn đoán cũng như chữa trị bệnh chính xác hơn. </p>
+                </div>
+                <div class="features-slider slider">
+
+                    <div class="feature-item text-center">
+                        <img src="~/Content/theme/img/features/feature-01.jpg" class="img-fluid" alt="Feature">
+                        <p>Khu bệnh nhân</p>
+                    </div>
+
+                    <div class="feature-item text-center">
+                        <img src="~/Content/theme/img/features/feature-02.jpg" class="img-fluid" alt="Feature">
+                        <p>Phòng thử nghiệm</p>
+                    </div>
+
+                    <div class="feature-item text-center">
+                        <img src="~/Content/theme/img/features/feature-03.jpg" class="img-fluid" alt="Feature">
+                        <p>ICU</p>
+                    </div>
+
+                    <div class="feature-item text-center">
+                        <img src="~/Content/theme/img/features/feature-04.jpg" class="img-fluid" alt="Feature">
+                        <p>Phòng thí nghiệm</p>
+                    </div>
+
+                    <div class="feature-item text-center">
+                        <img src="~/Content/theme/img/features/feature-05.jpg" class="img-fluid" alt="Feature">
+                        <p>Hoạt động</p>
+                    </div>
+
+                    <div class="feature-item text-center">
+                        <img src="~/Content/theme/img/features/feature-06.jpg" class="img-fluid" alt="Feature">
+                        <p>Y học</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-blogs">
+    <div class="container-fluid">
+
+        <div class="section-header text-center">
+            <h2>Blog và Tin tức</h2>
+            <p class="sub-title">Được thành lập từ năm 2015, với đội ngũ dày dặn kinh nghiệm, thân thiện với bệnh nhân giúp giải tỏa căng thẳng, cũng như trấn an những bệnh nhân bi quan khi đến khám bệnh.</p>
+        </div>
+
+        <div class="row blog-grid-row">
+
+            @foreach (var art in latestPosts)
+            {
+                <div class="col-md-6 col-lg-3 col-sm-12">
+
+                    <div class="blog grid-blog">
+                        <div class="blog-image">
+                            <a href="/article/detail?id=@art.Id"><img class="img-fluid" src="@art.Image" alt="@art.Title"></a>
+                        </div>
+                        <div class="blog-content">
+                            <ul class="entry-meta meta-item">
+                                <li>
+                                    <div class="post-author">
+                                        <a href="#">
+                                            <img src="~/Content/theme/img/doctors/doctor-thumb-01.jpg" alt="Post Author"> <span>Dr. Ruby Perrin</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li><i class="far fa-clock"></i> @art.CreatedDate.ToString("D")</li>
+                            </ul>
+                            <h3 class="blog-title"><a hhref="/article/detail?id=@art.Id">@art.Title</a></h3>
+                            <p class="mb-0">@art.Description</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <div class="view-all text-center">
+            <a href="/article" class="btn btn-primary">Hiển thị tất cả</a>
+        </div>
+    </div>
+</section>
+
+@section Scripts
+{
+    <script src="~/Content/theme/js/slick.js"></script>
+    <script src="~/Content/theme/js/script.js"></script>
+} 

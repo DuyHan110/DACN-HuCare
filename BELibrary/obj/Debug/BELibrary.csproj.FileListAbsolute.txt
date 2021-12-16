@@ -1,0 +1,122 @@
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\bin\Debug\BELibrary.dll.config
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\bin\Debug\BELibrary.dll
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\bin\Debug\BELibrary.pdb
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\bin\Debug\AutoMapper.dll
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\bin\Debug\EntityFramework.dll
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\bin\Debug\System.Memory.dll
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\bin\Debug\System.ValueTuple.dll
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\bin\Debug\Z.EntityFramework.Extensions.dll
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\bin\Debug\Z.EntityFramework.Plus.EF6.dll
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\bin\Debug\Z.Expressions.Eval.dll
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\bin\Debug\AutoMapper.pdb
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\bin\Debug\AutoMapper.xml
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.pdb
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\bin\Debug\EntityFramework.xml
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\bin\Debug\System.ValueTuple.xml
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\bin\Debug\Z.EntityFramework.Extensions.xml
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\bin\Debug\Z.EntityFramework.Plus.EF6.xml
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\bin\Debug\Z.Expressions.Eval.xml
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\obj\Debug\BELibrary.csproj.AssemblyReference.cache
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\obj\Debug\BELibrary.Migrations.Initdatabase.resources
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\obj\Debug\BELibrary.Migrations.New_Article_table.resources
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\obj\Debug\BELibrary.csproj.GenerateResource.cache
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\obj\Debug\BELibrary.csproj.CoreCompileInputs.cache
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\obj\Debug\BELibrary.csproj.CopyComplete
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\obj\Debug\BELibrary.dll
+C:\Users\DuyHan\Desktop\Báo Cáo Tiến Độ 3010\HospitalManagement\Source\BELibrary\obj\Debug\BELibrary.pdb
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\BELibrary.dll.config
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\BELibrary.dll
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\BELibrary.pdb
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\AutoMapper.dll
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\EntityFramework.dll
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\EntityFramework.SqlServer.dll
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\System.Memory.dll
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\System.ValueTuple.dll
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\Z.EntityFramework.Extensions.dll
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\Z.EntityFramework.Plus.EF6.dll
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\Z.Expressions.Eval.dll
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\AutoMapper.pdb
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\AutoMapper.xml
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.pdb
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\EntityFramework.xml
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\EntityFramework.SqlServer.xml
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\System.ValueTuple.xml
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\Z.EntityFramework.Extensions.xml
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\Z.EntityFramework.Plus.EF6.xml
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\Z.Expressions.Eval.xml
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\obj\Debug\BELibrary.csproj.AssemblyReference.cache
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\obj\Debug\BELibrary.Migrations.Initdatabase.resources
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\obj\Debug\BELibrary.Migrations.New_Article_table.resources
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\obj\Debug\BELibrary.csproj.GenerateResource.cache
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\obj\Debug\BELibrary.csproj.CoreCompileInputs.cache
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\obj\Debug\BELibrary.csproj.CopyComplete
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\obj\Debug\BELibrary.dll
+E:\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\obj\Debug\BELibrary.pdb
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\BELibrary.dll.config
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\BELibrary.dll
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\BELibrary.pdb
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\AutoMapper.dll
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\EntityFramework.dll
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\EntityFramework.SqlServer.dll
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\System.Memory.dll
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\System.ValueTuple.dll
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\Z.EntityFramework.Extensions.dll
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\Z.EntityFramework.Plus.EF6.dll
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\Z.Expressions.Eval.dll
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\AutoMapper.pdb
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\AutoMapper.xml
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.pdb
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\EntityFramework.xml
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\EntityFramework.SqlServer.xml
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\System.ValueTuple.xml
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\Z.EntityFramework.Extensions.xml
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\Z.EntityFramework.Plus.EF6.xml
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\Z.Expressions.Eval.xml
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\obj\Debug\BELibrary.Migrations.Initdatabase.resources
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\obj\Debug\BELibrary.Migrations.New_Article_table.resources
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\obj\Debug\BELibrary.csproj.GenerateResource.cache
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\obj\Debug\BELibrary.csproj.CoreCompileInputs.cache
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\obj\Debug\BELibrary.csproj.CopyComplete
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\obj\Debug\BELibrary.dll
+D:\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\obj\Debug\BELibrary.pdb
+C:\Users\doduy\Desktop\hucare\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\BELibrary.dll.config
+C:\Users\doduy\Desktop\hucare\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\BELibrary.dll
+C:\Users\doduy\Desktop\hucare\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\BELibrary.pdb
+C:\Users\doduy\Desktop\hucare\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\AutoMapper.dll
+C:\Users\doduy\Desktop\hucare\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\doduy\Desktop\hucare\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\EntityFramework.dll
+C:\Users\doduy\Desktop\hucare\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\doduy\Desktop\hucare\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\System.Memory.dll
+C:\Users\doduy\Desktop\hucare\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\System.ValueTuple.dll
+C:\Users\doduy\Desktop\hucare\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\Z.EntityFramework.Extensions.dll
+C:\Users\doduy\Desktop\hucare\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\Z.EntityFramework.Plus.EF6.dll
+C:\Users\doduy\Desktop\hucare\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\Z.Expressions.Eval.dll
+C:\Users\doduy\Desktop\hucare\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\AutoMapper.pdb
+C:\Users\doduy\Desktop\hucare\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\AutoMapper.xml
+C:\Users\doduy\Desktop\hucare\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.pdb
+C:\Users\doduy\Desktop\hucare\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\EntityFramework.xml
+C:\Users\doduy\Desktop\hucare\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\doduy\Desktop\hucare\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\System.ValueTuple.xml
+C:\Users\doduy\Desktop\hucare\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\Z.EntityFramework.Extensions.xml
+C:\Users\doduy\Desktop\hucare\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\Z.EntityFramework.Plus.EF6.xml
+C:\Users\doduy\Desktop\hucare\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\bin\Debug\Z.Expressions.Eval.xml
+C:\Users\doduy\Desktop\hucare\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\obj\Debug\BELibrary.csproj.AssemblyReference.cache
+C:\Users\doduy\Desktop\hucare\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\obj\Debug\BELibrary.Migrations.Initdatabase.resources
+C:\Users\doduy\Desktop\hucare\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\obj\Debug\BELibrary.Migrations.New_Article_table.resources
+C:\Users\doduy\Desktop\hucare\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\obj\Debug\BELibrary.csproj.GenerateResource.cache
+C:\Users\doduy\Desktop\hucare\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\obj\Debug\BELibrary.csproj.CoreCompileInputs.cache
+C:\Users\doduy\Desktop\hucare\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\obj\Debug\BELibrary.csproj.CopyComplete
+C:\Users\doduy\Desktop\hucare\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\obj\Debug\BELibrary.dll
+C:\Users\doduy\Desktop\hucare\FinalHucare\HuCareFinal\QuanLyBenhNhan\QuanLyBenhNhan\Source\BELibrary\obj\Debug\BELibrary.pdb

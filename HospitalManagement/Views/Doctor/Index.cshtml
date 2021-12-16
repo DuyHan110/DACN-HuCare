@@ -1,0 +1,468 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="breadcrumb-bar">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-md-8 col-12">
+                <nav aria-label="breadcrumb" class="page-breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Trang chủ</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Tìm kiếm</li>
+                    </ol>
+                </nav>
+                <h2 class="breadcrumb-title">2245 kết quả phù hợp được tìm thấy cho: Nha sĩ ở Bình Thạnh</h2>
+            </div>
+            <div class="col-md-4 col-12 d-md-block d-none">
+                <div class="sort-by">
+                    <span class="sort-title">Sort by</span>
+                    <span class="sortby-fliter">
+                        <select class="select">
+                            <option>Lựa chọn</option>
+                            <option class="sorting">Xếp hạng</option>
+                            <option class="sorting">Phổ biến</option>
+                            <option class="sorting">Cũ nhất</option>
+                            <option class="sorting">Mới</option>
+                        </select>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 col-lg-4 col-xl-3 theiaStickySidebar">
+
+                <div class="card search-filter">
+                    <div class="card-header">
+                        <h4 class="card-title mb-0">Bộ lọc tìm kiếm</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="filter-widget">
+                            <div class="cal-icon">
+                                <input type="text" class="form-control datetimepicker" placeholder="Select Date">
+                            </div>
+                        </div>
+                        <div class="filter-widget">
+                            <h4>Giới tính</h4>
+                            <div>
+                                <label class="custom_check">
+                                    <input type="checkbox" name="gender_type" checked>
+                                    <span class="checkmark"></span> Male Doctor
+                                </label>
+                            </div>
+                            <div>
+                                <label class="custom_check">
+                                    <input type="checkbox" name="gender_type">
+                                    <span class="checkmark"></span> Female Doctor
+                                </label>
+                            </div>
+                        </div>
+                        <div class="filter-widget">
+                            <h4>Chọn chuyên gia</h4>
+                            <div>
+                                <label class="custom_check">
+                                    <input type="checkbox" name="select_specialist" checked>
+                                    <span class="checkmark"></span> Khoa tiết niệu
+                                </label>
+                            </div>
+                            <div>
+                                <label class="custom_check">
+                                    <input type="checkbox" name="select_specialist" checked>
+                                    <span class="checkmark"></span> Thần kinh học
+                                </label>
+                            </div>
+                            <div>
+                                <label class="custom_check">
+                                    <input type="checkbox" name="select_specialist">
+                                    <span class="checkmark"></span> Nha khoa
+                                </label>
+                            </div>
+                            <div>
+                                <label class="custom_check">
+                                    <input type="checkbox" name="select_specialist">
+                                    <span class="checkmark"></span> Chỉnh hình
+                                </label>
+                            </div>
+                            <div>
+                                <label class="custom_check">
+                                    <input type="checkbox" name="select_specialist">
+                                    <span class="checkmark"></span> Bác sĩ tim mạch
+                                </label>
+                            </div>
+                            <div>
+                                <label class="custom_check">
+                                    <input type="checkbox" name="select_specialist">
+                                    <span class="checkmark"></span> Bác sĩ tim mạch
+                                </label>
+                            </div>
+                        </div>
+                        <div class="btn-search">
+                            <button type="button" class="btn btn-block">Tìm kiếm</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-8 col-xl-9">
+
+                <div class="card">
+                    <div class="card-body">
+                        <div class="doctor-widget">
+                            <div class="doc-info-left">
+                                <div class="doctor-img">
+                                    <a href="doctor-profile.html">
+                                        <img src="~/Content/theme/img/doctors/doctor-thumb-01.jpg" class="img-fluid" alt="User Image">
+                                    </a>
+                                </div>
+                                <div class="doc-info-cont">
+                                    <h4 class="doc-name"><a href="doctor-profile.html">Dr. Ruby Perrin</a></h4>
+                                    <p class="doc-speciality">MDS - Nha chu và Cấy ghép miệng, BDS</p>
+                                    <h5 class="doc-department"><img src="~/Content/theme/img/specialities/specialities-05.png" class="img-fluid" alt="Speciality">Dentist</h5>
+                                    <div class="rating">
+                                        <i class="fas fa-star filled"></i>
+                                        <i class="fas fa-star filled"></i>
+                                        <i class="fas fa-star filled"></i>
+                                        <i class="fas fa-star filled"></i>
+                                        <i class="fas fa-star"></i>
+                                        <span class="d-inline-block average-rating">(17)</span>
+                                    </div>
+                                    <div class="clinic-details">
+                                        <p class="doc-location"><i class="fas fa-map-marker-alt"></i> Bình Thạnh, TP.HCM</p>
+                                        <ul class="clinic-gallery">
+                                            <li>
+                                                <a href="~/Content/theme/img/features/feature-01.jpg" data-fancybox="gallery">
+                                                    <img src="~/Content/theme/img/features/feature-01.jpg" alt="Feature">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="~/Content/theme/img/features/feature-02.jpg" data-fancybox="gallery">
+                                                    <img src="~/Content/theme/img/features/feature-02.jpg" alt="Feature">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="~/Content/theme/img/features/feature-03.jpg" data-fancybox="gallery">
+                                                    <img src="~/Content/theme/img/features/feature-03.jpg" alt="Feature">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="~/Content/theme/img/features/feature-04.jpg" data-fancybox="gallery">
+                                                    <img src="~/Content/theme/img/features/feature-04.jpg" alt="Feature">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="clinic-services">
+                                        <span>Dental Fillings</span>
+                                        <span> Whitneing</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="doc-info-right">
+                                <div class="clini-infos">
+                                    <ul>
+                                        <li><i class="far fa-thumbs-up"></i> 98%</li>
+                                        <li><i class="far fa-comment"></i> 17 Phản hồi</li>
+                                        <li><i class="fas fa-map-marker-alt"></i> Bình Thạnh, TP.HCM</li>
+                                        <li><i class="far fa-money-bill-alt"></i> $300 - $1000 <i class="fas fa-info-circle" data-toggle="tooltip" title="Lorem Ipsum"></i> </li>
+                                    </ul>
+                                </div>
+                                <div class="clinic-booking">
+                                    <a class="view-pro-btn" href="doctor-profile.html">Hiển thị hồ sơ</a>
+                                    <a class="apt-btn" href="booking.html">Đặt lịch hẹn</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <div class="doctor-widget">
+                            <div class="doc-info-left">
+                                <div class="doctor-img">
+                                    <a href="doctor-profile.html">
+                                        <img src="~/Content/theme/img/doctors/doctor-thumb-02.jpg" class="img-fluid" alt="User Image">
+                                    </a>
+                                </div>
+                                <div class="doc-info-cont">
+                                    <h4 class="doc-name"><a href="doctor-profile.html">Dr. Darren Elder</a></h4>
+                                    <p class="doc-speciality">BDS, MDS - Phẫu thuật răng - hàm mặt</p>
+                                    <h5 class="doc-department"><img src="~/Content/theme/img/specialities/specialities-05.png" class="img-fluid" alt="Speciality">Dentist</h5>
+                                    <div class="rating">
+                                        <i class="fas fa-star filled"></i>
+                                        <i class="fas fa-star filled"></i>
+                                        <i class="fas fa-star filled"></i>
+                                        <i class="fas fa-star filled"></i>
+                                        <i class="fas fa-star"></i>
+                                        <span class="d-inline-block average-rating">(35)</span>
+                                    </div>
+                                    <div class="clinic-details">
+                                        <p class="doc-location"><i class="fas fa-map-marker-alt"></i> Củ Chi, Việt Nam</p>
+                                        <ul class="clinic-gallery">
+                                            <li>
+                                                <a href="~/Content/theme/img/features/feature-01.jpg" data-fancybox="gallery">
+                                                    <img src="~/Content/theme/img/features/feature-01.jpg" alt="Feature">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="~/Content/theme/img/features/feature-02.jpg" data-fancybox="gallery">
+                                                    <img src="~/Content/theme/img/features/feature-02.jpg" alt="Feature">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="~/Content/theme/img/features/feature-03.jpg" data-fancybox="gallery">
+                                                    <img src="~/Content/theme/img/features/feature-03.jpg" alt="Feature">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="~/Content/theme/img/features/feature-04.jpg" data-fancybox="gallery">
+                                                    <img src="~/Content/theme/img/features/feature-04.jpg" alt="Feature">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="clinic-services">
+                                        <span>Trám răng</span>
+                                        <span> Làm trắng răng</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="doc-info-right">
+                                <div class="clini-infos">
+                                    <ul>
+                                        <li><i class="far fa-thumbs-up"></i> 100%</li>
+                                        <li><i class="far fa-comment"></i> 35 Phản hồi</li>
+                                        <li><i class="fas fa-map-marker-alt"></i> Hà Nội, Việt Nam</li>
+                                        <li><i class="far fa-money-bill-alt"></i> $50 - $300 <i class="fas fa-info-circle" data-toggle="tooltip" title="Lorem Ipsum"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="clinic-booking">
+                                    <a class="view-pro-btn" href="doctor-profile.html">Hiển thị hồ sơ</a>
+                                    <a class="apt-btn" href="booking.html">Đặt lịch hẹn</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <div class="doctor-widget">
+                            <div class="doc-info-left">
+                                <div class="doctor-img">
+                                    <a href="doctor-profile.html">
+                                        <img src="~/Content/theme/img/doctors/doctor-thumb-03.jpg" class="img-fluid" alt="User Image">
+                                    </a>
+                                </div>
+                                <div class="doc-info-cont">
+                                    <h4 class="doc-name"><a href="doctor-profile.html">Dr. Deborah Angel</a></h4>
+                                    <p class="doc-speciality">MBBS, MD - Y học tổng hợp, DNB - Tim mạch</p>
+                                    <p class="doc-department"><img src="~/Content/theme/img/specialities/specialities-04.png" class="img-fluid" alt="Speciality">Cardiology</p>
+                                    <div class="rating">
+                                        <i class="fas fa-star filled"></i>
+                                        <i class="fas fa-star filled"></i>
+                                        <i class="fas fa-star filled"></i>
+                                        <i class="fas fa-star filled"></i>
+                                        <i class="fas fa-star"></i>
+                                        <span class="d-inline-block average-rating">(27)</span>
+                                    </div>
+                                    <div class="clinic-details">
+                                        <p class="doc-location"><i class="fas fa-map-marker-alt"></i> Hạ Long, Việt Nam</p>
+                                        <ul class="clinic-gallery">
+                                            <li>
+                                                <a href="~/Content/theme/img/features/feature-01.jpg" data-fancybox="gallery">
+                                                    <img src="~/Content/theme/img/features/feature-01.jpg" alt="Feature">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="~/Content/theme/img/features/feature-02.jpg" data-fancybox="gallery">
+                                                    <img src="~/Content/theme/img/features/feature-02.jpg" alt="Feature">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="~/Content/theme/img/features/feature-03.jpg" data-fancybox="gallery">
+                                                    <img src="~/Content/theme/img/features/feature-03.jpg" alt="Feature">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="~/Content/theme/img/features/feature-04.jpg" data-fancybox="gallery">
+                                                    <img src="~/Content/theme/img/features/feature-04.jpg" alt="Feature">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="clinic-services">
+                                        <span>Trám răng</span>
+                                        <span> Làm trắng răng</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="doc-info-right">
+                                <div class="clini-infos">
+                                    <ul>
+                                        <li><i class="far fa-thumbs-up"></i> 99%</li>
+                                        <li><i class="far fa-comment"></i> 35 Phản hồi</li>
+                                        <li><i class="fas fa-map-marker-alt"></i> Bình Thạnh, TP.HCM</li>
+                                        <li><i class="far fa-money-bill-alt"></i> $100 - $400 <i class="fas fa-info-circle" data-toggle="tooltip" title="Lorem Ipsum"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="clinic-booking">
+                                    <a class="view-pro-btn" href="doctor-profile.html">Hiển thị hồ sơ</a>
+                                    <a class="apt-btn" href="booking.html">Đặt lịch hẹn</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <div class="doctor-widget">
+                            <div class="doc-info-left">
+                                <div class="doctor-img">
+                                    <a href="doctor-profile.html">
+                                        <img src="~/Content/theme/img/doctors/doctor-thumb-04.jpg" class="img-fluid" alt="User Image">
+                                    </a>
+                                </div>
+                                <div class="doc-info-cont">
+                                    <h4 class="doc-name"><a href="doctor-profile.html">Dr. Sofia Brient</a></h4>
+                                    <p class="doc-speciality">MBBS, MS - Phẫu thuật tổng quát, MCh - Khoa tiết niệu</p>
+                                    <p class="doc-department"><img src="~/Content/theme/img/specialities/specialities-01.png" class="img-fluid" alt="Speciality">Urology</p>
+                                    <div class="rating">
+                                        <i class="fas fa-star filled"></i>
+                                        <i class="fas fa-star filled"></i>
+                                        <i class="fas fa-star filled"></i>
+                                        <i class="fas fa-star filled"></i>
+                                        <i class="fas fa-star"></i>
+                                        <span class="d-inline-block average-rating">(4)</span>
+                                    </div>
+                                    <div class="clinic-details">
+                                        <p class="doc-location"><i class="fas fa-map-marker-alt"></i> Củ Chi, VN</p>
+                                        <ul class="clinic-gallery">
+                                            <li>
+                                                <a href="~/Content/theme/img/features/feature-01.jpg" data-fancybox="gallery">
+                                                    <img src="~/Content/theme/img/features/feature-01.jpg" alt="Feature">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="~/Content/theme/img/features/feature-02.jpg" data-fancybox="gallery">
+                                                    <img src="~/Content/theme/img/features/feature-02.jpg" alt="Feature">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="~/Content/theme/img/features/feature-03.jpg" data-fancybox="gallery">
+                                                    <img src="~/Content/theme/img/features/feature-03.jpg" alt="Feature">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="~/Content/theme/img/features/feature-04.jpg" data-fancybox="gallery">
+                                                    <img src="~/Content/theme/img/features/feature-04.jpg" alt="Feature">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="clinic-services">
+                                        <span>Trám răng</span>
+                                        <span> Làm trắng răng</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="doc-info-right">
+                                <div class="clini-infos">
+                                    <ul>
+                                        <li><i class="far fa-thumbs-up"></i> 97%</li>
+                                        <li><i class="far fa-comment"></i> 4 Phản hồi</li>
+                                        <li><i class="fas fa-map-marker-alt"></i> Hà Nội, VN</li>
+                                        <li><i class="far fa-money-bill-alt"></i> $150 - $250 <i class="fas fa-info-circle" data-toggle="tooltip" title="Lorem Ipsum"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="clinic-booking">
+                                    <a class="view-pro-btn" href="doctor-profile.html">Hiển thị hồ sơ</a>
+                                    <a class="apt-btn" href="booking.html">Đặt lịch hẹn</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <div class="doctor-widget">
+                            <div class="doc-info-left">
+                                <div class="doctor-img">
+                                    <a href="doctor-profile.html">
+                                        <img src="~/Content/theme/img/doctors/doctor-thumb-06.jpg" class="img-fluid" alt="User Image">
+                                    </a>
+                                </div>
+                                <div class="doc-info-cont">
+                                    <h4 class="doc-name"><a href="doctor-profile.html">Dr. Katharine Berthold</a></h4>
+                                    <p class="doc-speciality">MS - Chỉnh hình, MBBS, M.Ch - Chỉnh hình</p>
+                                    <p class="doc-department"><img src="~/Content/theme/img/specialities/specialities-03.png" class="img-fluid" alt="Speciality">Orthopaedics</p>
+                                    <div class="rating">
+                                        <i class="fas fa-star filled"></i>
+                                        <i class="fas fa-star filled"></i>
+                                        <i class="fas fa-star filled"></i>
+                                        <i class="fas fa-star filled"></i>
+                                        <i class="fas fa-star"></i>
+                                        <span class="d-inline-block average-rating">(52)</span>
+                                    </div>
+                                    <div class="clinic-details">
+                                        <p class="doc-location"><i class="fas fa-map-marker-alt"></i> Bình Quới, TP.HCM</p>
+                                        <ul class="clinic-gallery">
+                                            <li>
+                                                <a href="~/Content/theme/img/features/feature-01.jpg" data-fancybox="gallery">
+                                                    <img src="~/Content/theme/img/features/feature-01.jpg" alt="Feature">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="~/Content/theme/img/features/feature-02.jpg" data-fancybox="gallery">
+                                                    <img src="~/Content/theme/img/features/feature-02.jpg" alt="Feature">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="~/Content/theme/img/features/feature-03.jpg" data-fancybox="gallery">
+                                                    <img src="~/Content/theme/img/features/feature-03.jpg" alt="Feature">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="~/Content/theme/img/features/feature-04.jpg" data-fancybox="gallery">
+                                                    <img src="~/Content/theme/img/features/feature-04.jpg" alt="Feature">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="clinic-services">
+                                        <span>Trám răng</span>
+                                        <span> Làm trắng răng</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="doc-info-right">
+                                <div class="clini-infos">
+                                    <ul>
+                                        <li><i class="far fa-thumbs-up"></i> 100%</li>
+                                        <li><i class="far fa-comment"></i> 52 Phản hồi</li>
+                                        <li><i class="fas fa-map-marker-alt"></i>Bình Thạnh, TP.HCM</li>
+                                        <li><i class="far fa-money-bill-alt"></i> $100 - $500 <i class="fas fa-info-circle" data-toggle="tooltip" title="Lorem Ipsum"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="clinic-booking">
+                                    <a class="view-pro-btn" href="doctor-profile.html">Hiển thị hồ sơ</a>
+                                    <a class="apt-btn" href="booking.html">Đặt lịch hẹn</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="load-more text-center">
+                    <a class="btn btn-primary btn-sm" href="javascript:void(0);">Tải thêm</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
